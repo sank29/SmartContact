@@ -1,5 +1,8 @@
 package com.sanket.service;
 
-public class ContactService {
+import org.springframework.stereotype.Service;
+
+@Service
+public interface ContactService {
 
 }
