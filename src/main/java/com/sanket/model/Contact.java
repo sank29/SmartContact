@@ -18,7 +18,7 @@ import lombok.Setter;
 @Data
 @Getter
 @Setter
-public class Contacts {
+public class Contact {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

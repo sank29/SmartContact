@@ -30,7 +30,8 @@ public class User {
 	private String userMobile;
 	
 	@OneToMany(cascade = CascadeType.ALL)
-	private List<Contacts>listOfContacts;
+	private List<Contact>listOfContacts;
 	
 
 }
+
