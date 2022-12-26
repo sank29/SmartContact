@@ -27,7 +27,6 @@ public class User {
 	private Integer userId;
 	
 	private String userName;
-	private String userMobile;
 	
 	@OneToMany(cascade = CascadeType.ALL)
 	private List<Contact>listOfContacts;
